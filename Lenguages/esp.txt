@@ -1,0 +1,8 @@
+mt1:Cambia el idioma del script:
+o11:Castellano:
+o12:Ingles:
+o13:Salir:
+in1:Que accion quieres realizar?[introduce el numero]:
+so1:El idioma ha sido cabiado correctamente:
+er1:El idioma ya esta siendo utilizado:
+er2:La opción introducida es incorrecta:

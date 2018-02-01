@@ -1,0 +1,5 @@
+installdir:/media/sf_Ubuntu/:
+lenguage:esp:
+directory:
+bin:
+orderby:

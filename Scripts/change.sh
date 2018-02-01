@@ -21,8 +21,6 @@ text mt1
 options o11 o12 o13
 end in1
 
-read chlen < <(grep lenguage /media/sf_Ubuntu/Includes/Data/config.txt | cut -d ':' -f 2)
-
 case $ans in
     1)
         chlenguage esp

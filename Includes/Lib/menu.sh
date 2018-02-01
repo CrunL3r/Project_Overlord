@@ -1,7 +1,11 @@
 #Felix Aguilar Ferrer.
 #Libreria para la creacion de menus.
 
-function text (){
+. /media/sf_Ubuntu/Includes/Lib/control.sh
+
+lenguage
+
+function title (){
     string $1
     echo - $str
     unset str
@@ -24,7 +28,7 @@ function options (){
     echo -------------------------------------------------
 }
 
-function end(){
+function input(){
     string $1
     echo -n $str
     unset str
@@ -32,6 +36,14 @@ function end(){
 }
 
 function error(){
+    string $1
+    echo -------------------------------------------------
+    echo $str
+    echo -------------------------------------------------
+    unset str
+}
+
+function text(){
     string $1
     echo $str
     unset str

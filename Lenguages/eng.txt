@@ -1,8 +1,14 @@
 mt1:Change the lenguage of the script:
+mt2:Script configuration:
 o11:Spanish:
 o12:English:
-o13:Exit:
-in1:What do you wont to do?[enter the number]:
+o13:Return:
+o21:Change the lenguage:
+o22:Change the folder to interact with:
+o23:Change the bin folder:
+o24:Change the method to sort:
+o25:Exit:
+in1:What do you want to do?[enter the number]:
 so1:The lenguage was succesfully changed:
 er1:The lenguage is already in use:
 er2:The option introduced was incorrect:

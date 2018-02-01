@@ -2,7 +2,7 @@ mt1:Change the lenguage of the script:
 o11:Spanish:
 o12:English:
 o13:Exit:
-in1:What do you wont to do?[introduce de number]:
+in1:What do you wont to do?[enter the number]:
 so1:The lenguage was succesfully changed:
 er1:The lenguage is already in use:
 er2:The option introduced was incorrect:

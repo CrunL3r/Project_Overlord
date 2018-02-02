@@ -1,18 +1,19 @@
-mt1:Cambia el idioma del script:
-mt2:Configuracion script:
-mt3:Herramienta SMTA:
-ds1:Gestor de archivos con papelera:
-o11:Castellano:
-o12:Ingles:
-o13:Volver a atras:
-o21:Cambiar idioma:
-o22:Cambiar directorio de acción:
-o23:Cambiar directorio de reciclaje:
-o24:Cambiar metodo de ordenacion:
-o25:Salir:
-o31:Gestionar archivos:
-o32:Gestionar la papelera:
-in1:Que accion quieres realizar?[introduce el numero]:
-so1:El idioma ha sido cabiado correctamente:
-er1:El idioma ya esta siendo utilizado:
-er2:La opción introducida es incorrecta:
+s1:Cambia el idioma del script:
+s2:Configuracion script:
+s3:Herramienta SMTA:
+s4:Gestor de archivos con papelera:
+s5:Castellano:
+s6:Ingles:
+s7:Volver a atras:
+s8:Cambiar idioma:
+s9:Cambiar directorio de acción:
+s10:Cambiar directorio de reciclaje:
+s11:Cambiar metodo de ordenacion:
+s12:Gestionar archivos:
+s13:Gestionar la papelera:
+s14::
+s15:Salir:
+s16:Que accion quieres realizar?[introduce el numero]:
+s17:El idioma ha sido cabiado correctamente:
+s18:El idioma ya esta siendo utilizado:
+s19:La opción introducida es incorrecta:

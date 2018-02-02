@@ -1,18 +1,19 @@
-mt1:Change the lenguage of the script:
-mt2:Script configuration:
-mt3:SMTA tool:
-ds1:File manager witk bin:
-o11:Spanish:
-o12:English:
-o13:Return:
-o21:Change the lenguage:
-o22:Change the folder to interact with:
-o23:Change the bin folder:
-o24:Change the method to sort:
-o31:File manager:
-o32:Bin manager:
-o25:Exit:
-in1:What do you want to do?[enter the number]:
-so1:The lenguage was succesfully changed:
-er1:The lenguage is already in use:
-er2:The option introduced was incorrect:
+s1:Change the lenguage of the script:
+s2:Script configuration:
+s3:SMTA tool:
+s4:File manager with bin:
+s5:Spanish:
+s6:English:
+s7:Return:
+s8:Change the lenguage:
+s9:Change the folder to interact with:
+s10:Change the bin folder:
+s11:Change the method to sort:
+s12:File manager:
+s13:Bin manager:
+s14::
+s15:Exit:
+s16:What do you want to do?[enter the number]:
+s17:The lenguage was succesfully changed:
+s18:The lenguage is already in use:
+s19:The option introduced was incorrect:

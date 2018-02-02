@@ -35,11 +35,15 @@ function input(){
     read ans
 }
 
+function correct(){
+    string $1
+    echo -e "\e[42m$str\e[49m"
+    unset str
+}
+
 function error(){
     string $1
-    echo -------------------------------------------------
-    echo $str
-    echo -------------------------------------------------
+    echo -e "\e[41m$str\e[49m"
     unset str
 }
 

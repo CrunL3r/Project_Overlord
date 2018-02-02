@@ -1,5 +1,7 @@
 mt1:Cambia el idioma del script:
 mt2:Configuracion script:
+mt3:Herramienta SMTA:
+ds1:Gestor de archivos con papelera:
 o11:Castellano:
 o12:Ingles:
 o13:Volver a atras:
@@ -8,6 +10,8 @@ o22:Cambiar directorio de acción:
 o23:Cambiar directorio de reciclaje:
 o24:Cambiar metodo de ordenacion:
 o25:Salir:
+o31:Gestionar archivos:
+o32:Gestionar la papelera:
 in1:Que accion quieres realizar?[introduce el numero]:
 so1:El idioma ha sido cabiado correctamente:
 er1:El idioma ya esta siendo utilizado:

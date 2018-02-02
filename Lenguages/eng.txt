@@ -1,5 +1,7 @@
 mt1:Change the lenguage of the script:
 mt2:Script configuration:
+mt3:SMTA tool:
+ds1:File manager witk bin:
 o11:Spanish:
 o12:English:
 o13:Return:
@@ -7,6 +9,8 @@ o21:Change the lenguage:
 o22:Change the folder to interact with:
 o23:Change the bin folder:
 o24:Change the method to sort:
+o31:File manager:
+o32:Bin manager:
 o25:Exit:
 in1:What do you want to do?[enter the number]:
 so1:The lenguage was succesfully changed:

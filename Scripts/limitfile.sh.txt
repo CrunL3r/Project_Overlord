@@ -1,0 +1,8 @@
+# Creador por Anderson valencia castaño
+#archivos borrados sin modificacion en 20 dias
+if find ./ -maxdepth 1 -atime +20 -type f -exec mv "{}" ./papelera/ \;
+then
+  echo 'No file deleted'
+else
+  echo 'deleted files'
+fi

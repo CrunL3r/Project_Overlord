@@ -1,5 +1,6 @@
 installdir:/media/sf_Ubuntu/:
-lenguage:esp:
-directory:
-bin:
-orderby:
+lenguage:eng:
+directory:/media/sf_Ubuntu/test/:
+bin:/media/sf_Ubuntu/trash/:
+orderby:extension:
+new:/media/sf_Ubuntu/new/:

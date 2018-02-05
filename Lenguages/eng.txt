@@ -6,7 +6,7 @@ s5:Spanish:
 s6:English:
 s7:Return:
 s8:Change the lenguage:
-s9:Change the folder to interact with:
+s9:Change the order folder:
 s10:Change the bin folder:
 s11:Change the method to sort:
 s12:File manager:
@@ -17,3 +17,23 @@ s16:What do you want to do?[enter the number]:
 s17:The lenguage was succesfully changed:
 s18:The lenguage is already in use:
 s19:The option introduced was incorrect:
+s20:Order now:
+s21:Directory:
+s22:Ordenation method:
+s23:Check files ordered:
+s24:Delete mising files:
+s25:All mising files deleted from the database:
+s26:Look for the missing files in the input:
+s27:No missing files in the database:
+s28:Actual directory:
+s29:Change the directory:
+s30:Change the directory and move the files in it:
+s31:Path is required:
+s32:The directory is the same as before:
+s33:The directory already exists:
+s34:The directory could not be created:
+s35:The content of the directory was unable to be move:
+s36:The content have been move:
+s37:The directory change has been succesful:
+s38:Change the input directory:
+s39:Absolute path for the new directory:

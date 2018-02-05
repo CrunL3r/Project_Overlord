@@ -4,27 +4,33 @@
 menu=0
 while [ $menu -eq 0 ]
 do
-    . /media/sf_Ubuntu/Includes/Lib/menu.sh
-
-    title mt2
-    options o21 o22 o23 o24 o13
-    input in1
+    . ${pathsmta}/Includes/Lib/menu.sh
+    .  ${pathsmta}/Includes/Lib/chdir.sh
+    
+    title s2
+    options s8 s9 s10 s38 s11 s7
+    input s16
     clear
     case $ans in
         1)
-            . /media/sf_Ubuntu/Scripts/change.sh
+            . ${pathsmta}/Scripts/change.sh
             ;;
         2)
+            chdir directory s9
             ;;
         3)
+            chdir bin s10
             ;;
         4)
+            chdir new s38
             ;;
         5)
+            ;;
+        6)
             menu=1
             ;;
         *)
-            error er2
+            error s19
             ;;
     esac
 done

@@ -1,9 +1,10 @@
 #Felix Aguilar Ferrer.
 #Libreria para la creacion de menus.
 
-. /media/sf_Ubuntu/Includes/Lib/control.sh
+. ${pathsmta}/Includes/Lib/control.sh
 
-lenguage
+configs lenguage leng
+leng=${pathsmta}/Lenguages/$leng.txt
 
 function title (){
     string $1
@@ -36,13 +37,23 @@ function input(){
 }
 
 function correct(){
-    string $1
+    if [ $2 -eq 1 ]
+    then
+        str=$1
+    else
+        string $1
+    fi
     echo -e "\e[42m$str\e[49m"
     unset str
 }
 
 function error(){
-    string $1
+    if [ $2 -eq 1 ]
+    then
+        str=$1
+    else
+        string $1
+    fi
     echo -e "\e[41m$str\e[49m"
     unset str
 }
@@ -51,4 +62,19 @@ function text(){
     string $1
     echo $str
     unset str
+}
+
+function output(){
+    if [ ! -z $2 ]
+    then
+        string $2
+        echo -e "\e[44m$str = $1\e[49m"
+        else
+        echo -e "\e[44m$1\e[49m"
+    fi
+    unset str  
+}
+
+function divider(){
+    echo -------------------------------------------------
 }

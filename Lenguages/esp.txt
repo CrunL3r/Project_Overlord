@@ -4,7 +4,7 @@ s3:Herramienta SMTA:
 s4:Gestor de archivos con papelera:
 s5:Castellano:
 s6:Ingles:
-s7:Volver a atras:
+s7:Volver atras:
 s8:Cambiar idioma:
 s9:Cambiar directorio de acción:
 s10:Cambiar directorio de reciclaje:
@@ -17,3 +17,12 @@ s16:Que accion quieres realizar?[introduce el numero]:
 s17:El idioma ha sido cabiado correctamente:
 s18:El idioma ya esta siendo utilizado:
 s19:La opción introducida es incorrecta:
+s20:Ordena ahora:
+s21:Directorio:
+s22:Metodo de ordenacion:
+s23:Revisar los archivos ordenados:
+s24:Eliminar los archivos extraviados:
+s25:Todos los archivos extraviados han sido eliminados:
+s26:Mirar por archivos extraviados en el directorio de entrada:
+s27:No hay archivos extraviados en la base de datos:
+s28:Directorio actual:

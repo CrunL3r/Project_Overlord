@@ -1,29 +1,39 @@
 #Felix Aguilar Ferrer.
 #Menu de configuración del script.
 
+#Obtiene el path de la instalacion. (variable: instal)
+function install(){
+    read file < <(find / -name "config.txt" 2> /dev/null)
+    read pathsmta < <(grep installdir $file | cut -d ':' -f 2)
+    unset file
+}
+
+install
+
 menu=0
 while [ $menu -eq 0 ]
 do
-    . /media/sf_Ubuntu/Includes/Lib/menu.sh
+    . ${pathsmta}/Includes/Lib/menu.sh
 
-    title mt3
-    title ds1
-    options o31 o32 mt2 o25
-    input in1
+    title s3
+    title s4
+    options s12 s13 s2 s15
+    input s16
     clear
     case $ans in
         1)
+            . ${pathsmta}/Scripts/sort.sh
             ;;
         2)
             ;;
         3)
-            . /media/sf_Ubuntu/Scripts/config.sh
+            . ${pathsmta}/Scripts/config.sh
             ;;
         4)
             menu=1
             ;;
         *)
-            error er2
+            error s19 0
             ;;
     esac
 done

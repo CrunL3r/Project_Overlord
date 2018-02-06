@@ -21,8 +21,8 @@ s20:Order now:
 s21:Directory:
 s22:Ordenation method:
 s23:Check files ordered:
-s24:Delete mising files:
-s25:All mising files deleted from the database:
+s24:Delete missing files:
+s25:All missing files deleted from the database:
 s26:Look for the missing files in the input:
 s27:No missing files in the database:
 s28:Actual directory:
@@ -37,3 +37,7 @@ s36:The content have been move:
 s37:The directory change has been succesful:
 s38:Change the input directory:
 s39:Absolute path for the new directory:
+s40:Color legend:
+s41:Correct files:
+s42:Missing files:
+s43:Files inside the bin:

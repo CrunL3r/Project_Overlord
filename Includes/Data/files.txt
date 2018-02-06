@@ -1,6 +1,7 @@
-file0.txt:/media/sf_Ubuntu/test/last/done/:
-file1.txt:/media/sf_Ubuntu/test/last/done/:
-file2.txt:/media/sf_Ubuntu/test/last/done/:
-file4.txt:/media/sf_Ubuntu/test/last/done/:
-file5.txt:/media/sf_Ubuntu/test/last/done/:
-file6.txt:/media/sf_Ubuntu/test/last/done/:
+file0.txt:/media/sf_Ubuntu/ord/last/done/:
+file1.txt:/media/sf_Ubuntu/ord/last/done/:
+file2.txt:/media/sf_Ubuntu/ord/last/done/:
+file4.txt:/media/sf_Ubuntu/ord/last/done/:
+file5.txt:/media/sf_Ubuntu/ord/last/done/:
+file6.txt:/media/sf_Ubuntu/ord/last/done/:
+trun.txt:/media/sf_Ubuntu/bin/:/media/sf_Ubuntu/ord/last/done/:

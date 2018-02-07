@@ -115,9 +115,36 @@ function ffile(){
     unset i
 }
 
-
 function changeord(){
     #Para cambiar la forma de ordenar con otro metodo
     echo #Working...
     
+}
+
+function addline(){
+    #Felix Aguilar Ferrer.
+    #Permite la inserción de lineas con el caracter divisor :.
+    #Inputs $1 = Fichero destino.
+    #       $2 $3 $4 ... = Campos a insertar.
+    
+    #Obtenemos el path y movemos el puntero.
+    pathfile=$1
+    shift
+    
+    #Se crea el indice y el numero de parametros introducidos se obtiene
+    #ademas de crear el inicio del string.
+    i=$#
+    n=1
+    txt=""
+    
+    #El bucle para añadir campos.
+    while [ $n -le $i ]
+    do
+    txt="$txt$1:"
+    shift
+    let n=$n+1
+    done
+    
+    #Se introduce la linea al archivo.
+    echo -e $txt 1>> $pathfile
 }

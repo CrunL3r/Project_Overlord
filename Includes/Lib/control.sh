@@ -148,3 +148,7 @@ function addline(){
     #Se introduce la linea al archivo.
     echo -e $txt 1>> $pathfile
 }
+
+function chname(){
+ggggggjnjl
+}
